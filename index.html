@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>Мой первый сайт</title>
 </head>
 <body>
     <h1>Привет, я начинающий разработчик!</h1>
     <p>Это мой первый код.</p>
+    
+    
+    <!-- Твоя форма для ввода имени -->
+<input type="text" id="nameInput" placeholder="Введите ваше имя">
+<button onclick="greetUser()">Поприветствовать</button>
+<p>Кликов: <span id="counter">0</span></p>
+<!-- Сюда выведется приветствие -->
+<div id="greeting"></div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
